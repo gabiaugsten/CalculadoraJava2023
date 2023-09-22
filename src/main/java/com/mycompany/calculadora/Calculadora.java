@@ -11,6 +11,7 @@ package com.mycompany.calculadora;
 public class Calculadora {
     public static void main(String[] args) {
         FrmCalculadora calc = new FrmCalculadora();
+        calc.setTitle("Calculadora Tabajara");
         calc.setLocationRelativeTo(calc);
         calc.setVisible(true);
     }
